@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /screenshots/
+
+Sitemap: https://st10536822.github.io/brightfix-plumbing/sitemap.xml

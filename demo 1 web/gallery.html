@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Our Work | BrightFix Plumbing Services</title>
+<meta name="description" content="See BrightFix plumbing work in Centurion: repaired leaks, unblocked drains, new geysers and bathroom pipe replacements.">
+<meta property="og:title" content="Our Work - BrightFix Plumbing Services">
+<meta property="og:description" content="See BrightFix plumbing work in Centurion: repaired leaks, unblocked drains, new geysers and bathroom pipe replacements.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_ZA">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="site-header">
+      <a class="site-header__logo" href="Homepage.html">BrightFix Plumbing Services</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="Homepage.html">Home</a></li>
+          <li><a class="site-nav__link" href="about.html">About</a></li>
+          <li><a class="site-nav__link" href="products.html">Products</a></li>
+          <li><a class="site-nav__link" href="services.html">Services</a></li>
+          <li><a class="site-nav__link site-nav__link--current" href="gallery.html">Our Work</a></li>
+          <li><a class="site-nav__link" href="enquiry.html">Enquiry</a></li><li><a class="site-nav__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <div class="page-intro">
+        <h1>Our work</h1>
+        <p>A few of the jobs we have completed. Click a photo to see it larger.</p>
+      </div>
+
+      <div class="gallery-filters" role="group" aria-label="Filter photos">
+        <button type="button" class="gallery-filter" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="gallery-filter" data-filter="leaks" aria-pressed="false">Leaks</button>
+        <button type="button" class="gallery-filter" data-filter="drains" aria-pressed="false">Drains</button>
+        <button type="button" class="gallery-filter" data-filter="geysers" aria-pressed="false">Geysers</button>
+        <button type="button" class="gallery-filter" data-filter="bathrooms" aria-pressed="false">Bathrooms</button>
+      </div>
+
+      <!-- JavaScript fills this with photos -->
+      <div class="gallery" id="gallery-grid"></div>
+
+      <!-- The lightbox popup -->
+      <dialog id="lightbox" class="lightbox" aria-label="Photo viewer">
+        <div class="lightbox__inner">
+          <img id="lightbox-img" class="lightbox__img" src="" alt="">
+          <p id="lightbox-caption" class="lightbox__caption"></p>
+          <div class="lightbox__controls">
+            <button type="button" class="btn" id="lightbox-prev" aria-label="Previous photo">&larr; Previous</button>
+            <span id="lightbox-count" role="status"></span>
+            <button type="button" class="btn" id="lightbox-next" aria-label="Next photo">Next &rarr;</button>
+            <button type="button" class="btn" id="lightbox-close">Close</button>
+          </div>
+        </div>
+      </dialog>
+    </main>
+
+    <aside class="site-sidebar">
+      <h3>Quick links</h3>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Our Work</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+
+   <footer class="site-footer">
+  <div>
+    <p>&copy; 2026 BrightFix Plumbing Services</p>
+    <p>Student number: ST10536822</p>
+  </div>
+
+  <address class="footer-contact">
+    <p>BrightFix Plumbing Services, Centurion, Gauteng</p>
+    <p>Phone: <a href="tel:+27745523120">+27 74 552 3120</a></p>
+    <p>Email: <a href="mailto:BrightFix@Gmail.com">BrightFix@Gmail.com</a></p>
+  </address>
+
+  <nav aria-label="Social media">
+    <ul class="social">
+      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      <li><a href="https://wa.me/27745523120" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+    </ul>
+  </nav>
+</footer>
+
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>

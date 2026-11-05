@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "BrightFix Plumbing Services",
+  "description": "Family-owned plumber in Centurion, Pretoria for leaks, blocked drains, burst pipes and geyser repairs.",
+  "telephone": "+27 74 552 3120",
+  "email": "BrightFix@Gmail.com",
+  "priceRange": "R199 - R449",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Centurion",
+    "addressRegion": "Gauteng",
+    "addressCountry": "ZA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -25.8603,
+    "longitude": 28.1894
+  },
+  "areaServed": ["Centurion", "Pretoria East", "Midrand", "Irene"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  }
+}
+</script>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <title>BrightFix Plumbing Services | Plumber in Centurion, Pretoria</title>
+<meta name="description" content="BrightFix is a family-run plumber in Centurion, Pretoria. Leaking taps, blocked drains, burst pipes and geyser repairs for homes and small businesses.">
+<meta property="og:title" content="BrightFix Plumbing Services">
+<meta property="og:description" content="BrightFix is a family-run plumber in Centurion, Pretoria. Leaking taps, blocked drains, burst pipes and geyser repairs for homes and small businesses.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_ZA">
+  <meta charset="UTF-8">
+  <!-- REQUIRED for responsive design: without this, phones ignore your media queries -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 2.1: link the external stylesheet -->
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""></head>
+<body>
+  <div class="page">
+
+    <header class="site-header">
+      <a class="site-header__logo" href="Homepage.html">BrightFix Plumbing Services</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link site-nav__link--current" href="Homepage.html">Home</a></li>
+          <li><a class="site-nav__link" href="about.html">About</a></li>
+          <li><a class="site-nav__link" href="products.html">Products</a></li>
+          <li><a class="site-nav__link" href="services.html">Services</a></li>
+          <li><a class="site-nav__link" href="gallery.html">Our Work</a></li>
+          <li><a class="site-nav__link" href="enquiry.html">Enquiry</a></li><li><a class="site-nav__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      <div class="hero">
+        <!-- 3.3: srcset + sizes -->
+        <img class="hero__image"
+             src="images/brightfix-plumbing-mascot.png"
+             srcset="images/hero-400.jpg 400w, images/hero-800.jpg 800w, images/hero-1600.jpg 1600w"
+             sizes="(max-width: 640px) 94vw, (max-width: 1024px) 90vw, 880px"
+             alt="A plumber fixing a pipe with a wrench, with a water splash in the background">
+      </div>
+
+      <h1>BrightFix Plumbing Services</h1>
+      <p>Small plumbing business that provides residential and small business plumbing services. The company handles common plumbing problems such as leaking taps,
+          blocked drains, burst pipes, geyser-related issues and general maintenance. The proposed website would give
+          the business a professional online presence and make it easier for customers to request assistance.</p>
+
+      <div class="card-grid">
+        <article class="card">
+          <div>
+            <h2>Purpose and Objectives</h2>
+            <p>The main purpose of the website is to connect customers with BrightFix quickly and clearly. The website
+                should build trust while reducing the amount of time customers spend searching for contact information or
+                explaining their needs.</p>
+          </div>
+          <a class="btn" href="about.html">Read more</a>
+        </article>
+        <article class="card">
+          <div>
+            <h2>Target Audience</h2>
+            <p>The primary audience would be homeowners, tenants, landlords, property managers and small businesses
+                needing reliable plumbing assistance. Because plumbing problems can require urgent attention, the website
+                should prioritise simple navigation and fast access to contact options.</p>
+          </div>
+          <a class="btn" href="about.html">Read more</a>
+        </article>
+        <article class="card">
+          <div>
+            <h2>BrightFix Plumbing Services Goal</h2>
+            <p>The goal of BrightFix Plumbing Services is to provide reliable and efficient plumbing solutions to residential and small business customers, ensuring customer satisfaction and building a strong reputation in the community.</p>
+          </div>
+          <a class="btn" href="about.html">Read more</a>
+        </article>
+      </div>
+
+      <!-- Animated counters -->
+      <section class="stats" aria-label="BrightFix in numbers">
+        <div class="stats__item">
+          <span class="stats__number" data-target="500" data-suffix="+">500+</span>
+          <span class="stats__label">Leaks fixed</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__number" data-target="10" data-suffix="+">10+</span>
+          <span class="stats__label">Years of experience</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__number" data-target="98" data-suffix="%">98%</span>
+          <span class="stats__label">Happy customers</span>
+        </div>
+      </section>
+
+      <!-- 3.3: picture element, a different image per screen size -->
+      <picture>
+        <source media="(max-width: 640px)" srcset="images/banner-mobile.png">
+        <source media="(max-width: 1024px)" srcset="images/banner-tablet.png">
+        <img src="images/banner-desktop.png"
+        alt="A plumber fixing a pipe with a wrench, with a water splash in the background"
+        loading="lazy" decoding="async"
+        width="1200" height="600">
+          </picture>
+
+      <!-- Interactive map -->
+      <div class="map-container">
+        <section class="location-card">
+          <div class="location-heading">
+            <span class="location-icon">📍</span>
+            <div>
+              <h2>Find Us</h2>
+              <p>BrightFix Plumbing Services</p>
+            </div>
+          </div>
+          <div class="map-frame">
+            <div id="map" role="region" aria-label="Map of BrightFix service areas"></div>
+          </div>
+          <div class="map-tools">
+            <button class="btn" type="button" id="map-nearest">Find my nearest area</button>
+            <p id="map-nearest-out" role="status"></p>
+          </div>
+          <p class="map-caption"><span>📍</span> Click a marker to see response times and book.</p>
+        </section>
+      </div>
+    </main>
+
+    <aside class="site-sidebar">
+      <h2>Quick links</h2>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Our Work</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+
+    <footer class="site-footer">
+  <div>
+    <p>&copy; 2026 BrightFix Plumbing Services</p>
+    <p>Student number: ST10536822</p>
+  </div>
+
+  <address class="footer-contact">
+    <p>BrightFix Plumbing Services, Centurion, Gauteng</p>
+    <p>Phone: <a href="tel:+27745523120">+27 74 552 3120</a></p>
+    <p>Email: <a href="mailto:BrightFix@Gmail.com">BrightFix@Gmail.com</a></p>
+  </address>
+
+  <nav aria-label="Social media">
+    <ul class="social">
+      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      <li><a href="https://wa.me/27745523120" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+    </ul>
+  </nav>
+</footer>
+
+  </div>
+
+  <!-- Leaflet must load BEFORE script.js -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>  <script src="script.js" defer></script>
+</body>
+</html>

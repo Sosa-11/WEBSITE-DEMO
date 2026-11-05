@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Plumbing Products and Prices | BrightFix</title>
+<meta name="description" content="Browse BrightFix plumbing services and prices from R199: repairs, leak detection, drain unblocking, toilets, geysers and emergency call-outs.">
+<meta property="og:title" content="Plumbing Products and Prices - BrightFix">
+<meta property="og:description" content="Browse BrightFix plumbing services and prices from R199: repairs, leak detection, drain unblocking, toilets, geysers and emergency call-outs.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_ZA">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="site-header">
+  <a class="site-header__logo" href="Homepage.html">BrightFix Plumbing Services</a>
+  <nav class="site-nav" aria-label="Main">
+    <ul class="site-nav__list">
+      <li><a class="site-nav__link" href="Homepage.html">Home</a></li>
+      <li><a class="site-nav__link" href="about.html">About</a></li>
+      <li><a class="site-nav__link site-nav__link--current" href="products.html">Products</a></li>
+      <li><a class="site-nav__link" href="services.html">Services</a></li>
+      <li><a class="site-nav__link" href="gallery.html">Our Work</a></li>
+      <li><a class="site-nav__link" href="enquiry.html">Enquiry</a></li><li><a class="site-nav__link" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <main class="site-main">
+  <div class="page-intro">
+    <h1>Our products</h1>
+    <p>Explore our range of plumbing services designed to meet all your residential and commercial needs.</p>
+  </div>
+
+  <!-- Search, price and sort controls -->
+  <div class="product-tools">
+    <div class="form__field">
+      <label class="form__label" for="product-search">Search</label>
+      <input type="search" id="product-search" placeholder="e.g. geyser">
+    </div>
+    <div class="form__field">
+      <label class="form__label" for="product-max">Max price: <output id="product-max-out">R500</output></label>
+      <input type="range" id="product-max" min="0" max="500" step="10" value="500">
+    </div>
+    <div class="form__field">
+      <label class="form__label" for="product-sort">Sort by</label>
+      <select id="product-sort">
+        <option value="default">Default</option>
+        <option value="low">Price: low to high</option>
+        <option value="high">Price: high to low</option>
+        <option value="name">Name: A to Z</option>
+      </select>
+    </div>
+  </div>
+
+  <p id="product-count" role="status"></p>
+
+  <!-- JavaScript fills this with product cards -->
+  <div class="card-grid" id="product-grid"></div>
+
+  <!-- Quote basket -->
+  <section class="card quote" aria-labelledby="quote-title">
+    <div>
+      <h2 id="quote-title">Your quote</h2>
+      <ul id="quote-list" class="quote__list"></ul>
+      <p class="quote__total">Estimated total: <strong id="quote-total">R0.00</strong></p>
+    </div>
+    <div class="quote__actions">
+      <a class="btn" href="enquiry.html">Send quote enquiry</a>
+      <button class="btn" type="button" id="quote-clear">Clear quote</button>
+    </div>
+  </section>
+</main>
+
+    <aside class="site-sidebar">
+      <h3>Quick links</h3>
+      <ul>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Our Work</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </aside>
+
+    <footer class="site-footer">
+  <div>
+    <p>&copy; 2026 BrightFix Plumbing Services</p>
+    <p>Student number: ST10536822</p>
+  </div>
+
+  <address class="footer-contact">
+    <p>BrightFix Plumbing Services, Centurion, Gauteng</p>
+    <p>Phone: <a href="tel:+27745523120">+27 74 552 3120</a></p>
+    <p>Email: <a href="mailto:BrightFix@Gmail.com">BrightFix@Gmail.com</a></p>
+  </address>
+
+  <nav aria-label="Social media">
+    <ul class="social">
+      <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+      <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      <li><a href="https://wa.me/27745523120" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+    </ul>
+  </nav>
+</footer>
+
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
