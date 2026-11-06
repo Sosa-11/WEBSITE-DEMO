@@ -984,9 +984,9 @@ var FALLBACK_IMAGE = 'images/brightfix-plumbing-mascot.png';
   }
     /* ---------- 9. COMPILE A VALIDATED FORM INTO AN EMAIL ---------- */
 
-  // The recipient is read from the form's action attribute: "mailto:BrightFix@Gmail.com"
+  // The recipient is read from the form's data-email-to attribute: "BrightFix@Gmail.com"
   function getRecipient(form) {
-    return (form.getAttribute('action') || '').replace(/^mailto:/i, '').split('?')[0];
+    return (form.getAttribute('data-email-to') || '').trim();
   }
 
   // Build the email: three ready-made ways to send it

@@ -35,8 +35,8 @@
         <p>Have a question, some feedback or something else to tell us? Fill in the form and we will get back to you. Fields marked * are required. To ask about a price or booking, use the <a href="enquiry.html">enquiry page</a> instead.</p>
       </div>
 
-      <!-- action is a mailto: address, so the message is sent to the business by email -->
-      <form class="form" id="contact-form" action="mailto:BrightFix@Gmail.com" method="post" enctype="text/plain" novalidate>
+      <!-- data-email-to holds the business email; script.js builds the email from it -->
+      <form class="form" id="contact-form" data-email-to="BrightFix@Gmail.com" novalidate>
 
         <div class="form__row">
           <div class="form__field">
