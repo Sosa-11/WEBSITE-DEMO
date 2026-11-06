@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /screenshots/
 
-Sitemap: https://st10536822.github.io/brightfix-plumbing/sitemap.xml
+Sitemap: https://sosa-11.github.io/WEBSITE-DEMO/sitemap.xml
