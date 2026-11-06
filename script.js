@@ -482,7 +482,7 @@ map.on('mouseout', function () { map.scrollWheelZoom.disable(); });
 
     // 6a. The list of photos (change these to match your files)
     var works = [
-      { src: 'images/gallery/leak-1.png',     category: 'leaks',     title: 'Leaking kitchen tap repaired',   alt: 'A plumber fixing a leaking kitchen tap' },
+      { src: 'images/gallery/leak-1.jpeg',     category: 'leaks',     title: 'Leaking kitchen tap repaired',   alt: 'A plumber fixing a leaking kitchen tap' },
       { src: 'images/gallery/drain-1.jpeg',    category: 'drains',    title:'Outside drain unblocked',       alt: 'An outside drain that has been unblocked' },
       { src: 'images/gallery/geyser-1.jpeg',   category: 'geysers',   title: 'New geyser installed',           alt: 'A newly installed geyser in a ceiling' },
       { src: 'images/gallery/bathroom-1.jpeg', category: 'bathrooms', title: 'Bathroom pipes replaced',        alt: 'A bathroom with new copper pipes' },
